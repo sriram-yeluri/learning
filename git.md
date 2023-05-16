@@ -22,3 +22,13 @@ $ git remote -v
 # So , if the remote name is “origin”, then
 $ git remote prune origin
 ```
+
+## How to remove untracked files 
+
+```sh
+git clean -n  # perform dry run
+git clean -nd # dry run to list down the folders
+git clean -f # remove untracked files
+git clean -fd # remove untracked files and folders
+git clean -fx # remove untracked and ignored files
+```
