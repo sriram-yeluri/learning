@@ -32,3 +32,15 @@ git clean -f # remove untracked files
 git clean -fd # remove untracked files and folders
 git clean -fx # remove untracked and ignored files
 ```
+
+## Deleting remote branches
+
+```sh
+# check the remote branches 
+git branch -a
+
+# delete the remote branch
+git push origin --delete <branch_name>
+or
+git push origin -d <branch_name>
+```
