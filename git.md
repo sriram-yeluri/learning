@@ -44,3 +44,11 @@ git push origin --delete <branch_name>
 or
 git push origin -d <branch_name>
 ```
+
+## Deleting local branches
+
+```sh
+git branch -d <branch_name>
+# use the -D flag for force delete (--delete --force)
+git branch -D <branch_name>
+```
