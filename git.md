@@ -52,3 +52,11 @@ git branch -d <branch_name>
 # use the -D flag for force delete (--delete --force)
 git branch -D <branch_name>
 ```
+
+## Discard all local commits
+
+```sh
+git reset --hard origin/<branch_name>
+# example
+git reset --hard origin/master
+```
